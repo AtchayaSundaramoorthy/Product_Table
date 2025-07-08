@@ -53,6 +53,7 @@ Keep the table design strictly in HTML for simplicity.
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
   <title>Product Table</title>
 </head>
 <body>
@@ -102,7 +103,80 @@ Keep the table design strictly in HTML for simplicity.
 </body>
 </html>
 ```
+```
+body {
+  background-color: #f4f7f9;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 40px;
+}
 
+h1 {
+  text-align: center;
+  font-size: 2.4em;
+  color: #2e3a59;
+  margin-bottom: 30px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+table {
+  width: 85%;
+  margin: auto;
+  border-collapse: collapse;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #ffffff;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.07);
+  transition: transform 0.3s ease;
+}
+
+table:hover {
+  transform: scale(1.005);
+}
+
+caption {
+  caption-side: top;
+  font-weight: bold;
+  font-size: 1.3em;
+  padding: 10px 0;
+  color: #4b6584;
+  text-align: center;
+}
+
+thead th {
+  background-color: #b8d8e4; 
+  color: #1e272e;
+  padding: 14px;
+  text-align: center;
+  font-size: 1.05em;
+}
+
+tbody td {
+  border: 1px solid #e1e7ec;
+  padding: 12px;
+  font-size: 0.95em;
+  color: #34495e;
+  text-align: center;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f6f9fb; 
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+tbody tr:hover {
+  background-color: #dceef2; 
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+td, th {
+  word-wrap: break-word;
+}
+```
 ## Output:
 
 ![image](https://github.com/user-attachments/assets/60ab8f6b-15a4-4b51-a52d-a9edea725268)
