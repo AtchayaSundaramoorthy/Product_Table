@@ -1,5 +1,5 @@
 # Product Table
-## Date:
+## Date:07.07.2025
 ## Objective:
 
 To create a structured HTML table that displays product-related information, including product names, prices, and descriptions, useful for catalogs, listings, or e-commerce prototypes.
@@ -48,8 +48,65 @@ Use meaningful text inside the table for clarity.
 
 Keep the table design strictly in HTML for simplicity.
 ## HTML Code:
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Product Table</title>
+</head>
+<body>
+
+  <h1>Product Catalog</h1>
+
+  <table border="1">
+    <caption>Latest Tech Gadgets</caption>
+
+    <thead>
+      <tr>
+        <th>Product Name</th>
+        <th>Product Price</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td>Wireless Earbuds</td>
+        <td>₹2,499</td>
+        <td>Compact earbuds with noise cancellation and 20-hour battery life</td>
+      </tr>
+      <tr>
+        <td>Mechanical Keyboard</td>
+        <td>₹3,200</td>
+        <td>RGB backlit keys with tactile feedback, perfect for typing and gaming</td>
+      </tr>
+      <tr>
+        <td>Webcam</td>
+        <td>₹1,499</td>
+        <td>1080p full HD webcam with built-in microphone for video calls</td>
+      </tr>
+      <tr>
+        <td>USB-C Hub</td>
+        <td>₹999</td>
+        <td>Multiport adapter with HDMI, USB, and SD card reader support</td>
+      </tr>
+      <tr>
+        <td>Graphic Tablet</td>
+        <td>₹5,599</td>
+        <td>Digital drawing pad with pressure-sensitive stylus and USB connectivity</td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>
+```
 
 ## Output:
+
+![image](https://github.com/user-attachments/assets/60ab8f6b-15a4-4b51-a52d-a9edea725268)
+
 
 ## Result:
 A structured HTML table that displays product-related information, including product names, prices, and descriptions, useful for catalogs, listings, or e-commerce prototypes is created successfully.
