@@ -181,6 +181,7 @@ td, th {
 
 ![image](https://github.com/user-attachments/assets/60ab8f6b-15a4-4b51-a52d-a9edea725268)
 
+![image](https://github.com/user-attachments/assets/d1df37f1-95ab-4668-a1f5-cf315788a62a)
 
 ## Result:
 A structured HTML table that displays product-related information, including product names, prices, and descriptions, useful for catalogs, listings, or e-commerce prototypes is created successfully.
